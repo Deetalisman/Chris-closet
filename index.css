@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 15px 10px -15px #111;
+    z-index: 1;
+    background-color: white;
+    margin-top: 0;
+}
+.top h2{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.top h2 span{
+    margin-left: 20px;
+}
+ul{
+    margin-right: 30px;
+    list-style-type: none;
+    margin-top: 30px;
+}
+ul a{
+    text-decoration: none;
+    color: #111;
+}
+ul li{
+    display: inline;
+    margin: 7px 10px;
+    font-size: 24px;
+}
+article{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.aleft{
+    width: 50%;
+    margin-top: 5%;
+    margin-right: 20px;
+}
+.aleft h2{
+    font-size: 40px;
+}
+.aleft h1{
+    font-size:70px;
+}
+.aleft p{
+    margin-top: 15px;
+    font-size: 20px;
+    width: 90%;
+}
+.one{
+    width: 95%;
+    margin: 5% auto;
+    margin-top: 15%;
+}
+aside{
+    width: 95%;
+    margin: 5% auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    background-image: url(img/women2.jpg);
+    width: 23rem;
+    height: 23rem;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 3%;
+    background-size: cover;
+}
+.card h3{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    margin: 80% 5% 0 5%;
+    position: absolute;
+    height: 40px;
+    padding: 0 20px;
+      border-radius: 13px;
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+}
+.card h3 i{
+    margin-left: 60%;
+}
+.card.men{
+    background-image: url(img/men2.jpg);
+}
+.card.women{
+    background-image: url(img/women.jpg);
+    background-size: cover;
+}
+.card.casual{
+    background-image: url(img/shop.jpg);
+}
+.limited{
+    display: flex;
+}
+.limited img{
+    width: 50%;
+    height: 450px;
+}
+.lright{
+    background-color: rgb(52, 51, 51);
+    color: white;
+    padding: 2% 5% 0;
+    width: 40%;
+    height: 320px;
+    margin-top: 40px;
+}
+.lright h4{
+    font-weight: 200;
+}
+.lright p{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.lright a button{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+}
+.lright a button:hover{
+    width: 170px;
+}
+.lright a button i{
+    margin-left: 10px;
+}
+.foot{
+    width: 60rem;
+    margin: 6rem auto;
+    margin-top: 5%;
+    text-align: center;
+}
+.foot h2{
+    font-size: 40px;
+}
+.foot p{
+    font-size: 28px;
+    margin-top: 15px;
+}
+form{
+    margin-top: 20px;
+}
+form input{
+    width: 70%;
+    height: 40px;
+   border-radius: 10px;
+}
+form a button{
+    width: 20%;
+    height: 40px;
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   border-radius: 10px;
+}
+.feet{
+    margin-top: 3%;
+    text-align: center;
+    background-color: #ccc;
+    width: 100%;
+    height: 50px;
+    padding-top: 30px;
+}
+@media screen and (max-width:1300px) {
+
+    .aleft h2{
+        font-size: 30px;
+    }
+    .aleft h1{
+        font-size:70px;
+    }
+    .aleft p{
+        margin-top: 15px;
+        font-size: 20px;
+        width: 80%;
+    }
+}
+@media screen and (max-width:1180px) {
+    .card{
+        width: 20rem;
+        height: 20rem;
+    }
+    .aright img{
+        height: 400px;
+    }
+    .aleft h2{
+        font-size: 30px;
+    }
+    .aleft h1{
+        font-size:65px;
+    }
+    .aleft p{
+        margin-top: 15px;
+        font-size: 14px;
+        width: 80%;
+    }
+    .card h3{
+        font-size: 16px;
+    }
+    .foot{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .foot h2{
+        font-size: 25px;
+    }
+    .foot p{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    form{
+        margin-top: 20px;
+    }
+    form input{
+        width: 50%;
+        height: 40px;
+       border-radius: 10px;
+    }
+    form a button{
+        width: 15%;
+        height: 40px;
+       background-color: black;
+       color: white;
+       font-size: 20px;
+       border-radius: 10px;
+    }
+    .lright{
+        background-color: rgb(52, 51, 51);
+        color: white;
+        padding: 2% 5% 0;
+        width: 40%;
+        height: 450px;
+    }
+    .lright h4{
+        font-weight: 200;
+    }
+    .lright p{
+        font-size: 60px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:900px) {
+    article{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .top{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 15px 10px -15px #111;
+    }
+    .top h2{
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .top h2 span{
+        margin-left: 20px;
+    }
+    ul{
+        margin-right: 30px;
+        list-style-type: none;
+        margin-top: 30px;
+    }
+    ul a{
+        text-decoration: none;
+        color: #111;
+    }
+    ul li{
+        display: inline;
+        margin: 7px 10px;
+        font-size: 21px;
+    }
+    article{
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .aleft{
+        width: 100%;
+        margin-top: 7%;
+    }
+    .aleft h2{
+        font-size: 30px;
+    }
+    .aleft h1{
+        font-size:50px;
+    }
+    .aleft p{
+        margin-top: 15px;
+        font-size: 18px;
+        width: 90%;
+    }
+    .aright{
+        width: 70%;
+        position: relative;
+        margin: 20px 20%;
+    }
+    .aright img{
+        height: 350px;
+        width: 50%;
+        margin-top: 25%;
+    }
+    #one{
+        position: absolute;
+        margin-top: 80px;
+    }
+    .one{
+        width: 95%;
+        margin: 5% auto;
+        margin-top: 15%;
+    }
+    aside{
+        width: 95%;
+        margin: 5% auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .card{
+        background-image: url(img/women2.jpg);
+        width: 20rem;
+        height: 20rem;
+        border-radius: 20px;
+        position: relative;
+        margin-top: 3%;
+        background-size: cover;
+    }
+    .card h3{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        width: 75%;
+        margin: 80% 7% 0 7%;
+        position: absolute;
+        height: 40px;
+        padding: 0 20px;
+          border-radius: 13px;
+          font-family: "Poppins", sans-serif;
+          font-size: 13px;
+    }
+    .card h3 i{
+        margin-left: 60%;
+    }
+    .card.men{
+        background-image: url(img/men2.jpg);
+    }
+    .card.women{
+        background-image: url(img/women.jpg);
+        background-size: cover;
+    }
+    .card.casual{
+        background-image: url(img/shop.jpg);
+    }
+    .limited{
+        display: block;
+        background-color: rgb(52, 51, 51);
+    }
+    .limited img{
+        width: 100%;
+        height: 320px;
+    }
+    .lright{
+        background-color: rgb(52, 51, 51);
+        color: white;
+        padding: 1% 5% 0;
+        width: 90%;
+        height: 350px;
+        margin-top: 40px;
+    }
+    .lright h4{
+        font-weight: 200;
+    }
+    .lright p{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .lright a button{
+        margin-top: 20px;
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+        border: none;
+    }
+    .lright a button:hover{
+        width: 170px;
+    }
+    .lright a button i{
+        margin-left: 10px;
+    }
+    .foot{
+        width: 25rem;
+        margin: 20px auto;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .foot h2{
+        font-size: 20px;
+    }
+    .foot p{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    form{
+        margin-top: 20px;
+        display: block;
+    }
+    form input{
+        width: 80%;
+        height: 40px;
+       border-radius: 10px;
+    }
+    form a button{
+        width: 80%;
+        height: 40px;
+       background-color: black;
+       color: white;
+       font-size: 17px;
+       border-radius: 10px;
+       margin-top: 10px;
+    }
+    .feet{
+        margin-top: 3%;
+        text-align: center;
+        background-color: #ccc;
+        width: 100%;
+        height: 50px;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width:600px) {
+    .aright{
+        width: 95%;
+        position: relative;
+        margin: 20px 2%;
+    }
+    .aright img{
+        height: 300px;
+        width: 50%;
+    }
+    .card{
+        width: 23rem;
+        height: 23rem;
+    }
+    .card h3{
+        font-size: 14px;
+    }
+}
